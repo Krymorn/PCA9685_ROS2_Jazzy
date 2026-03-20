@@ -51,7 +51,7 @@ documentation — e.g. `raspi-config` on Raspberry Pi).
 ```bash
 # Clone into your workspace source directory
 cd ~/ros2_ws/src
-git clone https://github.com/Krymorn/pca9685_driver.git
+git clone https://github.com/Krymorn/PCA9685_ROS2_Jazzy.git
 
 # Install ROS2 dependencies
 cd ~/ros2_ws
