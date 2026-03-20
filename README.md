@@ -1,4 +1,4 @@
-# pca9685_driver — ROS2 Jazzy
+# PCA9685_ROS2_Jazzy — ROS2 Jazzy
 
 A clean, production-grade ROS2 **Jazzy** driver for the **NXP PCA9685** 16-channel,
 12-bit I²C PWM controller.  The driver is intentionally actuator-agnostic: it
@@ -8,7 +8,7 @@ actuator-specific configuration entirely to parameters and YAML files.
 ## Repository layout
 
 ```
-ros2_pca9685/
+PCA9685_ROS2_Jazzy/
 ├── pca9685_interfaces/       # Custom msgs + srv (CMake package)
 │   ├── msg/
 │   │   ├── ChannelCommand.msg
