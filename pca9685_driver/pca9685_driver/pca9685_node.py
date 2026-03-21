@@ -87,9 +87,9 @@ class PCA9685Node(Node):
 
         self.get_logger().info(
             f"PCA9685 node ready — "
-            f"I2C bus {self.get_parameter("i2c_bus").value}, "
-            f"address 0x{self.get_parameter("i2c_address").value:02X}, "
-            f"{self._driver.frequency_hz:.1f} Hz"  #
+            f"I2C bus {self.get_parameter('i2c_bus').value}, "
+            f"address 0x{self.get_parameter('i2c_address').value:02X}, "
+            f"{self._driver.frequency_hz:.1f} Hz"  # type: ignore[union-attr]
         )
 
     # ── ROS2 lifecycle helpers ────────────────────────────────────────────────
